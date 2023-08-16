@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 1.1;
+	background-color: hsl(30, 38%, 92%);
+}
+.product-card--container {
+	display: flex;
+	justify-content: center;
+	margin: 5rem 0 2rem 0;
+}
+.product-card--image {
+	width: 30%;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+.product-card--details_con {
+	background: hsl(0, 0%, 100%);
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding: 1.5rem 2rem;
+}
+.product-card--title {
+	font-size: 1rem;
+	font-weight: 500;
+	color: hsl(228, 12%, 48%);
+	text-transform: uppercase;
+	margin-bottom: 1.5rem;
+}
+.product-card--heading {
+	font-size: 2.5rem;
+	font-weight: 500;
+	color: hsl(212, 21%, 14%);
+	font-family: 'Fraunces', serif;
+	margin-bottom: 2rem;
+}
+.product-card--bio {
+	font-size: 1.3rem;
+	color: hsl(228, 12%, 48%);
+	line-height: 1.5;
+	margin-bottom: 2rem;
+}
+.product-card--promoprice {
+	font-size: 3rem;
+	color: hsl(158, 36%, 37%);
+	font-family: 'Fraunces', serif;
+	display: flex;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+.product-card--actualprice {
+	font-size: 1rem;
+	font-family: 'Montserrat', sans-serif;
+	color: hsl(228, 12%, 48%);
+	text-decoration: line-through;
+	margin-left: 1rem;
+}
+.product-card--cta {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	background-color: hsl(158, 36%, 37%);
+	padding: 1.5rem;
+	border-radius: 20px;
+	text-decoration: none;
+	color: hsl(0, 0%, 100%);
+	font-weight: 700;
+}
+.addtochat-icon {
+	width: 20px;
+}
